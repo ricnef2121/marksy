@@ -4172,22 +4172,32 @@ inferno-create-element@^7.1.12:
   dependencies:
     inferno "7.3.2"
 
-inferno-server@^7.1.12:
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/inferno-server/-/inferno-server-7.3.2.tgz#0885f374df1335215c73b925a438c9b0ffe52b77"
-  integrity sha512-wD/J+dgziP0r6t5IwKuR+/v5PYKwqpxRQ1JexkVGqNGtwGBhjsJmSGPsYhibTf+z1fPOp0z6VdGVAjCJ60SLiA==
+inferno-server@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/inferno-server/-/inferno-server-8.0.2.tgz#ed234c57b62dea40fa8c6ed73a5ba565d6c026ce"
+  integrity sha512-ZIAfVCrjy8nMLclrb88RhS9FnbUXrh/I543M5F8Fg8sV2KEWRykbl24OL0RBhoV6jt242XFWKGFTXKS5Zo0zxA==
   dependencies:
-    inferno "7.3.2"
+    inferno "8.0.2"
 
 inferno-shared@7.3.2:
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-7.3.2.tgz#6054f2db31bc9b5f34506de784e7bc871ba89d3b"
   integrity sha512-s0WUSLdO6M9h0G7enZEaSNUQ/8lOqJx/3KCigvSZoLDJJQULpoA05V2T5MI+hAZLaogiLPMbRN5Re0PQ6e6zIw==
 
+inferno-shared@8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-8.0.2.tgz#3493fc10b192f062124f07845e806d1f66ca109d"
+  integrity sha512-Q3nGshkioxsVatdfmq2FS3p+Oc3hFz/ZwvOxviIsY8+lWDuQbsY2fhT4j5NHkK9kLAlsVnnh534hik4MVKKe+w==
+
 inferno-vnode-flags@7.3.2:
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-7.3.2.tgz#faa85471aeeefc92e60a729f58167b9f721c5ce4"
   integrity sha512-tdktod16OohKnoJ0Dfs+JohUIIQdWtdH+SfUI4GomEJJMJlGpqTsZElZq0dmsQv5FBrMjN/mRW8+yt8KegxFJQ==
+
+inferno-vnode-flags@8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-8.0.2.tgz#1e7d859e9cb4648c99cfed1e14810ba6b164def6"
+  integrity sha512-WWqWFLFSJ3i7l5I5nyBUVZpYzPdZ+pve4XJQlmjJAwuceJk6RzxqoXzzax3QkQpClh0ZyuRJv1NDWRET6zmL/Q==
 
 inferno@7.3.2:
   version "7.3.2"
@@ -4197,6 +4207,15 @@ inferno@7.3.2:
     inferno-shared "7.3.2"
     inferno-vnode-flags "7.3.2"
     opencollective-postinstall "^2.0.2"
+
+inferno@8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-8.0.2.tgz#3f47d62eed4ad41efb1e53d00d7d990241a61fa1"
+  integrity sha512-o+yiSXUiICB9TX7glHckGky7rWx0GE0/qYWRvhrp71Re/6VS8e/5HjIY9x/OKmpAgB/4WVevjs6mecYSrfXAmQ==
+  dependencies:
+    inferno-shared "8.0.2"
+    inferno-vnode-flags "8.0.2"
+    opencollective-postinstall "^2.0.3"
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -5252,10 +5271,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^0.3.12:
-  version "0.3.19"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
-  integrity sha512-ea2eGWOqNxPcXv8dyERdSr/6FmzvWwzjMxpfGB/sbMccXoct+xY+YukPD+QTUZwyvK7BZwcr4m21WBOW41pAkg==
+marked@^0.8.0:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.8.2.tgz#4faad28d26ede351a7a1aaa5fec67915c869e355"
+  integrity sha512-EGwzEeCcLniFX51DhTpmTom+dSA/MG/OBUDjnWtHbEnjAH180VzUeAw+oE4+Zv+CoYBWyRlYOTR0N8SO9R1PVw==
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -5746,6 +5765,11 @@ opencollective-postinstall@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
   integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
+
+opencollective-postinstall@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
+  integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
 
 opn@^5.5.0:
   version "5.5.0"
